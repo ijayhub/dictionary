@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#f0f6fc;
+  @apply max-w-lg mx-auto p-5 text-slate-800;
+}
+.input-form{
+  @apply border-b-2 border-blue-600 outline-none w-full focus:bg-blue-100 transition mb-4 lg:text-xl;
+}
+.btn{
+  @apply bg-blue-800 p-2 text-white hover:animate-pulse
+}
