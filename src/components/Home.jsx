@@ -1,13 +1,13 @@
-import React,{ useEffect, useState } from 'react'
+import React,{ useState } from 'react'
 
 const Home = () => {
     const [words, setWords] = useState([])
     const handleSubmit = (e) => {
         e.preventDefault();
-        useEffect = (() => {
-            fetch('')
+        // useEffect = (() => {
+        //     fetch('')
             
-        })
+        // })
 
     }
     return (
